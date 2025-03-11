@@ -62,15 +62,13 @@ It emphasizes best practices in form design, validation, and styling, ensuring a
 
 - **[HTML & CSS Best practices]**
 - **[Responsive Design]**
-- **[REST API]**
 - **[USER LIKES]**
 - **[USER COMMENTS]**
 - **[USER RESERVATIONS]**
-- **[ES6 Modules]**
 - **[Webpack Bundling ]**
 - **[Express Server to handle routing]**
 - **[Bash Script to automate deployment]**
-- **[CI and CD Deployment with Netlify]**
+
 
 ### Series List:
 Formulario Linters is a simple web page that collects basic user information through an interactive form. It allows users to input data like their name, email, age, and preferences.
