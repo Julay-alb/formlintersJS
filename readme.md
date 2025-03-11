@@ -52,10 +52,6 @@ It emphasizes best practices in form design, validation, and styling, ensuring a
 <li> Javascript </li>
 <li> Webpack </li>
 <li> Express </li>
-<li> ES6 Modules </li>
-<li> REST API </li>
-<li> Async/await </li>
-<li> Promises </li>
 <li> Babel </li>
 <li> Git </li>
 <li> Github actions </li>
