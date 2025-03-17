@@ -1,53 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario  FINAL</title>
+    <title>Formulario Azure</title>
+    <link rel="stylesheet" href="./assets/styles.css">
 </head>
 <body>
-    <h1 id="title">FROMULARIO WEBPACK</h1>
+    <h1 id="title">FORMULARIO WEBPACK</h1>
     <p id="description">
-      GRACIAS POR DEJAR SUS DATOS
+      Gracias por tu información
     </p>
     <form id="survey-form">
       <fieldset>
         <label id="name-label"
-          >Name<input
+          >Nombre<input
             id="name"NP
             type="text"
-            placeholder="Please enter your name"
+            placeholder="Por favor ingresa tu nombre"
             required
         /></label>
         <label id="email-label"
-          >Email<input
+          >Correo Electrónico<input
             id="email"
             type="email"
-            placeholder="Please enteryour email"
+            placeholder="Por favor ingresa tu correo electrónico"
             required
         /></label>
         <label id="number-label"
-          >Age<input
+          >Edad<input
             id="number"
             type="number"
             min="15"
             max="80"
-            placeholder="Please enter your age"
+            placeholder="Por favor ingresa tu edad"
             required
         /></label>
         <label for="dropdown"
-          >Choose an option
+          >Elige una opción
           <select id="dropdown">
-            <option value=" ">Select One Option</option>
-            <option value="option1">Option A</option>
-            <option value="option2">Option B</option>
-            <option value="option3">Option B</option>
+            <option value=" ">Selecciona una opción</option>
+            <option value="option1">Opción A</option>
+            <option value="option2">Opción B</option>
+            <option value="option3">Opción C</option>
           </select>
         </label>
         <label id="radio-buttons">
-          Do you plan to buy a new car in the next 5 years?
+          ¿Planeas comprar un auto nuevo en los próximos 5 años?
           <label
-            ><input class="inline" name="account-type" type="radio" value="yes" />Yes</label
+            ><input class="inline" name="account-type" type="radio" value="yes" />Sí</label
           >
           <label
             ><input class="inline" name="account-type" type="radio" value="no" />No</label
@@ -58,15 +59,15 @@
               name="account-type"
               type="radio"
               value="maybe"
-            />Maybe</label
+            />Tal vez</label
           >
         </label>
       </fieldset>
       <fieldset>
         <label id="brands" for="dropdown"
-          >what is your favorite car brand?
+          >¿Cuál es tu marca de auto favorita?
           <select id="dropdown">
-            <option value="">Select One Option</option>
+            <option value="">Selecciona una opción</option>
             <option value="Chevrolet">Chevrolet</option>
             <option value="Mazda">Mazda</option>
             <option value="Renault">Renault</option>
@@ -74,8 +75,8 @@
         </label>
 
         <label for="dropdown"
-          >what type of means of trasnportation do you own ?
-          <label><input class="inline" value="car" type="checkbox" />Car</label>
+          >¿Qué tipo de medio de transporte posees?
+          <label><input class="inline" value="car" type="checkbox" />Carro</label>
           <label
             ><input
               class="inline"
@@ -83,7 +84,7 @@
               id="vehicle3"
               name="Boat"
               value="Boat"
-            />Boat</label
+            />Barco</label
           >
           <label
             ><input
@@ -92,7 +93,7 @@
               id="vehicle4"
               name="Bicycle"
               value="Bicycle"
-            />Bicycle</label
+            />Bicicleta</label
           >
           <label
             ><input
@@ -101,7 +102,7 @@
               id="vehicle5"
               name="Motorcycle"
               value="Motorcycle"
-            />Motorcycle</label
+            />Motocicleta</label
           >
           <label
             ><input
@@ -110,7 +111,7 @@
               id="vehicle6"
               name="Plane"
               value="Plane"
-            />Plane</label
+            />Avión</label
           >
           <label
             ><input
@@ -119,21 +120,21 @@
               id="vehicle1"
               name="Bike"
               value="Bike"
-            />Bike</label
+            />Moto</label
           >
         </label>
       </fieldset>
       <fieldset>
         <label
-          >Any comments or suggestions?
+          >¿Tienes algún comentario o sugerencia?
           <textarea
             id="comments"
             name="comments"
-            placeholder="Please enter your comments"
+            placeholder="Por favor ingresa tus comentarios"
           ></textarea>
         </label>
       </fieldset>
-      <input type="submit" id="submit" value="Submit" />
+      <input type="submit" id="submit" value="Enviar" />
     </form>
 
     <div id="message-container"></div>    
