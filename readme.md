@@ -62,9 +62,6 @@ It emphasizes best practices in form design, validation, and styling, ensuring a
 
 - **[HTML & CSS Best practices]**
 - **[Responsive Design]**
-- **[USER LIKES]**
-- **[USER COMMENTS]**
-- **[USER RESERVATIONS]**
 - **[Webpack Bundling ]**
 - **[Express Server to handle routing]**
 - **[Bash Script to automate deployment]**
@@ -82,17 +79,6 @@ Users can select options from dropdown menus, check boxes, and leave comments. T
 The app allows users to input data, such as name, email, and age, while selecting preferences through dropdown menus and checkboxes. JavaScript handles validatio
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-### 🚀 Live Demo <a name="live-demo"></a>
-
-> 
-
-- [Live Demo Link](	
-forwebpack-eydvcqacbxe9bjer.brazilsouth-01.azurewebsites.net
-)
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -112,7 +98,6 @@ To run this project  you need the following tools:
 - [Bash Script ]
 - [openssl to generate self signed certificates ]
 - [Webpack Installation ]
-- [CI CD Netlify Bot  Instalation]
 - [Nodejs ]
 
 
@@ -210,8 +195,7 @@ Concurrent, the npm package for running multiple commands in parallel
 To run locally run the following command:
 ## Development mode
 ```sh
-    npm run build-dev
-    npm run devserver-reload    
+    npm run build 
 ```
 ## Production mode
 ```sh
