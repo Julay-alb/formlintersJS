@@ -98,7 +98,7 @@ To run this project  you need the following tools:
 - [Bash Script ]
 - [openssl to generate self signed certificates ]
 - [Webpack Installation ]
-- [Nodejs ]
+     
 
 
 
