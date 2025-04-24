@@ -67,16 +67,6 @@ It emphasizes best practices in form design, validation, and styling, ensuring a
 - **[Bash Script to automate deployment]**
 
 
-### Series List:
-Formulario Linters is a simple web page that collects basic user information through an interactive form. It allows users to input data like their name, email, age, and preferences.
-
-Users can select options from dropdown menus, check boxes, and leave comments. This project is a straightforward yet effective example of creating responsive and functional web forms.
-
-### Likes:
- Users can express their preferences and indicate their favorite series by utilizing the "Like" feature. This functionality is achieved through REST methods, enabling users to interact with the app and curate their personal collection of liked shows. By utilizing async/await and Promises, the app ensures smooth and responsive liking functionality.
-
-### Comments Popup: 
-The app allows users to input data, such as name, email, and age, while selecting preferences through dropdown menus and checkboxes. JavaScript handles validatio
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
